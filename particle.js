@@ -42,7 +42,7 @@ class Particle {
 			ray.show();
 			loci.push(ray.cast(walls));
 		}
-		this.draw_rect(loci);
+		// this.draw_rect(loci);
 		this.movement(walls);
 	}
 

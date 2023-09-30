@@ -2,7 +2,7 @@ let particle;
 let walls = [];
 function setup()
 {
-	createCanvas(innerWidth, innerHeight);
+	createCanvas(innerWidth - 10, innerHeight - 10);
 	background(0);
 	console.clear();
 
